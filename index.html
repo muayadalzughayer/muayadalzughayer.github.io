@@ -1,24 +1,1315 @@
 <!doctype html>
 <html lang="de" dir="ltr">
 <head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+
 <title>Muayad Alzughayer — Network Security Engineer / WAN</title>
+
 <meta name="description" content="Muayad Alzughayer — Network Security Engineer / WAN">
-<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<meta name="author" content="Muayad Alzughayer">
+
+<meta property="og:title" content="Muayad Alzughayer — Network Security Engineer / WAN">
+<meta property="og:description" content="Network Security Engineer specializing in WAN, Network Security and enterprise networking.">
+<meta property="og:type" content="website">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
 <style>
-:root{--ink:#10243a;--paper:#f4f0e8;--muted:#65717a;--copper:#c8754a;--line:#10243a26}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font-family:'IBM Plex Sans',Arial,sans-serif}a{color:inherit;text-decoration:none}button{font:inherit;color:inherit;cursor:pointer}.top{height:70px;display:flex;align-items:center;justify-content:space-between;padding:0 5vw;border-bottom:1px solid var(--line);position:fixed;inset:0 0 auto 0;background:#f4f0e8eb;backdrop-filter:blur(12px);z-index:5}.brand{display:flex;align-items:center;gap:12px;font:600 25px 'Cormorant Garamond',serif}.mark{width:36px;height:36px;background:var(--ink);border:1px solid var(--ink);position:relative;display:grid;place-items:center}.mark:before{content:'';width:25px;height:25px;border:1px solid var(--copper);border-radius:50%}.mark:after{content:'';position:absolute;width:1px;height:35px;background:var(--copper)}.langs{display:flex;border:1px solid var(--line)}.langs button{border:0;background:transparent;padding:6px 9px;font:11px 'IBM Plex Mono'}.langs button.active{background:var(--ink);color:var(--paper)}main{padding-top:70px}.hero{min-height:660px;padding:10vw 9vw;display:grid;grid-template-columns:1.1fr .9fr;gap:7vw;align-items:center;background-image:linear-gradient(#f4f0e8cc,#f4f0e8cc),url('https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1600&q=80');background-size:cover}.eyebrow{color:var(--copper);font:11px 'IBM Plex Mono';letter-spacing:.12em;text-transform:uppercase}.hero h1{font:600 clamp(58px,8vw,126px)/.83 'Cormorant Garamond',serif;margin:25px 0}.hero h1 em{color:var(--copper);font-style:italic}.intro{border-left:2px solid var(--copper);padding-left:18px;max-width:580px;font-size:18px;line-height:1.8;color:#10243ab8}.actions{display:flex;gap:12px;margin-top:32px;flex-wrap:wrap}.btn{display:inline-flex;padding:13px 18px;border:1px solid var(--ink);font-weight:600}.btn.primary{background:var(--ink);color:var(--paper)}.btn:hover{border-color:var(--copper);background:var(--copper);color:#fff}.profile-card{background:var(--ink);color:var(--paper);padding:28px;min-height:270px;display:flex;align-items:flex-end;gap:20px;box-shadow:18px 18px 0 #c8754a33}.profile-card img{width:118px;height:150px;object-fit:cover;border:2px solid var(--copper);border-radius:60px 60px 6px 6px}.profile-card h2{font:500 34px/1 'Cormorant Garamond';margin:12px 0}.profile-card p{color:#f4f0e8a6;font-size:12px;line-height:1.6}.section{padding:110px 9vw;display:grid;grid-template-columns:.7fr 1.3fr;gap:8vw;border-bottom:1px solid var(--line)}.section.alt{background:#e9e3d8}.section h2{font:500 clamp(42px,5vw,76px)/.92 'Cormorant Garamond';margin:15px 0}.copy{font-size:19px;line-height:1.9;color:#10243ab8;border-top:1px solid var(--line);padding-top:25px;max-width:760px}.job{display:grid;grid-template-columns:160px 1fr;gap:18px;padding:27px 0;border-top:1px solid var(--line)}.period{font:11px 'IBM Plex Mono';color:var(--copper)}.job h3{font:500 31px 'Cormorant Garamond';margin:0 0 3px}.job p{margin:6px 0;color:#10243a99;line-height:1.7}.badges{display:grid;grid-template-columns:repeat(2,1fr);gap:15px}.badge{background:#faf8f3;border:1px solid var(--line);padding:20px;transition:.18s}.badge:hover{transform:translateY(-4px);border-color:var(--copper)}.badge img{width:100%;height:105px;object-fit:contain;border-bottom:1px solid var(--line);margin-bottom:15px}.badge h3{font:500 24px/1.05 'Cormorant Garamond';margin:0}.badge small{display:block;margin-top:10px;color:var(--muted);line-height:1.5}.contact{background:var(--ink);color:var(--paper)}.contact .copy,.contact .job{color:#f4f0e8a6;border-color:#f4f0e833}.contact a:hover{color:var(--copper)}footer{padding:25px 9vw;display:flex;justify-content:space-between;font:11px 'IBM Plex Mono';color:#f4f0e880;background:var(--ink);border-top:1px solid #f4f0e833}@media(max-width:800px){.top{padding:0 20px}.brand{font-size:21px}.hero{display:flex;flex-direction:column-reverse;align-items:stretch;padding:70px 20px;gap:45px}.profile-card{min-height:220px}.hero h1{font-size:67px}.section{display:block;padding:75px 20px}.section>div:first-child{margin-bottom:45px}.badges{grid-template-columns:1fr}.job{grid-template-columns:1fr;gap:8px}footer{padding:20px;gap:20px;flex-direction:column}}
-</style></head>
+
+:root{
+    --ink:#10243a;
+    --paper:#f4f0e8;
+    --muted:#65717a;
+    --copper:#c8754a;
+    --line:#10243a26;
+    --soft:#e9e3d8;
+}
+
+*{
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    margin:0;
+    background:var(--paper);
+    color:var(--ink);
+    font-family:'IBM Plex Sans',Arial,sans-serif;
+}
+
+a{
+    color:inherit;
+    text-decoration:none;
+}
+
+button{
+    font:inherit;
+    color:inherit;
+    cursor:pointer;
+}
+
+/* =========================
+   HEADER
+========================= */
+
+.top{
+    height:70px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:0 5vw;
+    border-bottom:1px solid var(--line);
+    position:fixed;
+    inset:0 0 auto 0;
+    background:#f4f0e8eb;
+    backdrop-filter:blur(12px);
+    -webkit-backdrop-filter:blur(12px);
+    z-index:5;
+}
+
+.brand{
+    display:flex;
+    align-items:center;
+    gap:12px;
+    font:600 25px 'Cormorant Garamond',serif;
+}
+
+.mark{
+    width:36px;
+    height:36px;
+    background:var(--ink);
+    border:1px solid var(--ink);
+    position:relative;
+    display:grid;
+    place-items:center;
+}
+
+.mark:before{
+    content:'';
+    width:25px;
+    height:25px;
+    border:1px solid var(--copper);
+    border-radius:50%;
+}
+
+.mark:after{
+    content:'';
+    position:absolute;
+    width:1px;
+    height:35px;
+    background:var(--copper);
+}
+
+.langs{
+    display:flex;
+    border:1px solid var(--line);
+}
+
+.langs button{
+    border:0;
+    background:transparent;
+    padding:6px 9px;
+    font:11px 'IBM Plex Mono';
+}
+
+.langs button.active{
+    background:var(--ink);
+    color:var(--paper);
+}
+
+/* =========================
+   MAIN
+========================= */
+
+main{
+    padding-top:70px;
+}
+
+/* =========================
+   HERO
+========================= */
+
+.hero{
+    min-height:660px;
+    padding:10vw 9vw;
+    display:grid;
+    grid-template-columns:1.1fr .9fr;
+    gap:7vw;
+    align-items:center;
+
+    background-image:
+        linear-gradient(#f4f0e8cc,#f4f0e8cc),
+        url('https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1600&q=80');
+
+    background-size:cover;
+    background-position:center;
+}
+
+.eyebrow{
+    color:var(--copper);
+    font:11px 'IBM Plex Mono';
+    letter-spacing:.12em;
+    text-transform:uppercase;
+}
+
+.hero h1{
+    font:600 clamp(58px,8vw,126px)/.83 'Cormorant Garamond',serif;
+    margin:25px 0;
+}
+
+.hero h1 em{
+    color:var(--copper);
+    font-style:italic;
+}
+
+.intro{
+    border-left:2px solid var(--copper);
+    padding-left:18px;
+    max-width:580px;
+    font-size:18px;
+    line-height:1.8;
+    color:#10243ab8;
+}
+
+.actions{
+    display:flex;
+    gap:12px;
+    margin-top:32px;
+    flex-wrap:wrap;
+}
+
+.btn{
+    display:inline-flex;
+    padding:13px 18px;
+    border:1px solid var(--ink);
+    font-weight:600;
+    transition:.18s ease;
+}
+
+.btn.primary{
+    background:var(--ink);
+    color:var(--paper);
+}
+
+.btn:hover{
+    border-color:var(--copper);
+    background:var(--copper);
+    color:#fff;
+}
+
+/* =========================
+   PROFILE CARD
+========================= */
+
+.profile-card{
+    background:var(--ink);
+    color:var(--paper);
+    padding:28px;
+    min-height:270px;
+    display:flex;
+    align-items:flex-end;
+    gap:20px;
+    box-shadow:18px 18px 0 #c8754a33;
+}
+
+.profile-card img{
+    width:118px;
+    height:150px;
+    object-fit:cover;
+    object-position:center;
+    border:2px solid var(--copper);
+    border-radius:60px 60px 6px 6px;
+    background:#26384a;
+}
+
+.profile-card h2{
+    font:500 34px/1 'Cormorant Garamond';
+    margin:12px 0;
+}
+
+.profile-card p{
+    color:#f4f0e8a6;
+    font-size:12px;
+    line-height:1.6;
+}
+
+/* =========================
+   GENERAL SECTIONS
+========================= */
+
+.section{
+    padding:110px 9vw;
+    display:grid;
+    grid-template-columns:.7fr 1.3fr;
+    gap:8vw;
+    border-bottom:1px solid var(--line);
+}
+
+.section.alt{
+    background:var(--soft);
+}
+
+.section h2{
+    font:500 clamp(42px,5vw,76px)/.92 'Cormorant Garamond';
+    margin:15px 0;
+}
+
+.copy{
+    font-size:19px;
+    line-height:1.9;
+    color:#10243ab8;
+    border-top:1px solid var(--line);
+    padding-top:25px;
+    max-width:760px;
+}
+
+/* =========================
+   CORE TECHNOLOGIES
+========================= */
+
+.technology-list{
+    display:flex;
+    flex-direction:column;
+    border-top:1px solid var(--line);
+}
+
+.tech-item{
+    display:grid;
+    grid-template-columns:220px 1fr;
+    gap:35px;
+    padding:27px 0;
+    border-bottom:1px solid var(--line);
+    transition:.18s ease;
+}
+
+.tech-item:hover{
+    padding-left:10px;
+}
+
+.tech-name{
+    font:500 32px/1 'Cormorant Garamond',serif;
+}
+
+.tech-name::after{
+    content:'';
+    display:block;
+    width:35px;
+    height:2px;
+    background:var(--copper);
+    margin-top:12px;
+}
+
+.tech-skill{
+    font:500 12px/1.8 'IBM Plex Mono',monospace;
+    color:var(--muted);
+    text-transform:uppercase;
+    letter-spacing:.04em;
+    padding-top:3px;
+}
+
+/* =========================
+   EXPERIENCE
+========================= */
+
+.job{
+    display:grid;
+    grid-template-columns:160px 1fr;
+    gap:18px;
+    padding:27px 0;
+    border-top:1px solid var(--line);
+}
+
+.period{
+    font:11px 'IBM Plex Mono';
+    color:var(--copper);
+}
+
+.job h3{
+    font:500 31px 'Cormorant Garamond';
+    margin:0 0 3px;
+}
+
+.job p{
+    margin:6px 0;
+    color:#10243a99;
+    line-height:1.7;
+}
+
+/* =========================
+   CERTIFICATES
+========================= */
+
+.badges{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:15px;
+}
+
+.badge{
+    background:#faf8f3;
+    border:1px solid var(--line);
+    padding:20px;
+    transition:.18s;
+}
+
+.badge:hover{
+    transform:translateY(-4px);
+    border-color:var(--copper);
+}
+
+.badge img{
+    width:100%;
+    height:105px;
+    object-fit:contain;
+    border-bottom:1px solid var(--line);
+    margin-bottom:15px;
+}
+
+.badge h3{
+    font:500 24px/1.05 'Cormorant Garamond';
+    margin:0;
+}
+
+.badge small{
+    display:block;
+    margin-top:10px;
+    color:var(--muted);
+    line-height:1.5;
+}
+
+/* =========================
+   CONTACT
+========================= */
+
+.contact{
+    background:var(--ink);
+    color:var(--paper);
+}
+
+.contact .copy,
+.contact .job{
+    color:#f4f0e8a6;
+    border-color:#f4f0e833;
+}
+
+.contact a:hover{
+    color:var(--copper);
+}
+
+/* =========================
+   FOOTER
+========================= */
+
+footer{
+    padding:25px 9vw;
+    display:flex;
+    justify-content:space-between;
+    font:11px 'IBM Plex Mono';
+    color:#f4f0e880;
+    background:var(--ink);
+    border-top:1px solid #f4f0e833;
+}
+
+/* =========================
+   MOBILE
+========================= */
+
+@media(max-width:800px){
+
+    .top{
+        padding:0 20px;
+    }
+
+    .brand{
+        font-size:21px;
+    }
+
+    .hero{
+        display:flex;
+        flex-direction:column-reverse;
+        align-items:stretch;
+        padding:70px 20px;
+        gap:45px;
+    }
+
+    .profile-card{
+        min-height:220px;
+    }
+
+    .hero h1{
+        font-size:67px;
+    }
+
+    .section{
+        display:block;
+        padding:75px 20px;
+    }
+
+    .section>div:first-child{
+        margin-bottom:45px;
+    }
+
+    .badges{
+        grid-template-columns:1fr;
+    }
+
+    .job{
+        grid-template-columns:1fr;
+        gap:8px;
+    }
+
+    .tech-item{
+        grid-template-columns:1fr;
+        gap:10px;
+        padding:25px 0;
+    }
+
+    .tech-name{
+        font-size:30px;
+    }
+
+    .tech-skill{
+        padding-top:0;
+    }
+
+    footer{
+        padding:20px;
+        gap:20px;
+        flex-direction:column;
+    }
+}
+
+</style>
+</head>
+
 <body>
-<header class="top"><a class="brand" href="#top"><span class="mark"></span><span>Muayad Alzughayer</span></a><div class="langs" aria-label="Language"><button data-lang="de" class="active">DE</button><button data-lang="en">EN</button><button data-lang="ar">AR</button></div></header>
-<main id="top"><section class="hero"><div><div class="eyebrow" data-i="eyebrow">MUAYAD ALZUGHAYER / 2026</div><h1 data-i="hero">Netzwerke, die sicher <em>verbinden.</em></h1><p class="intro" data-i="intro">Network Security Engineer mit Erfahrung in WAN, Datennetzbetrieb und Security-Umgebungen. Ansässig in Hannover und tätig in Niedersachsen.</p><div class="actions"><a class="btn primary" href="#experience" data-i="cta">Beruflichen Weg ansehen</a><a class="btn" href="mailto:muayadalzughayer@gmail.com" data-i="contactBtn">Kontakt aufnehmen</a></div></div><div class="profile-card"><img src="./muayad-profile.png" alt="Muayad Alzughayer"><div><div class="eyebrow">PROFILE / 001</div><h2 data-i="role">Network Security Engineer / WAN</h2><p data-i="place">Hannover / Wolfsburg, Niedersachsen, Deutschland</p></div></div></section>
-<section class="section" id="about"><div><div class="eyebrow" data-i="s1">01 / Profil</div><div style="font:80px 'IBM Plex Mono';opacity:.1">01</div></div><div><h2 data-i="aboutTitle">Technische Präzision. Klare Verantwortung.</h2><p class="copy" data-i="about">Ich arbeite an der Schnittstelle von Netzwerkbetrieb und IT-Sicherheit. Mein Schwerpunkt liegt auf stabilen WAN-Strukturen, sicherem Datennetzbetrieb und der Administration von Security-Plattformen.</p></div></section>
-<section class="section alt" id="experience"><div><div class="eyebrow" data-i="s2">02 / Berufserfahrung</div><h2 data-i="expTitle">Beruflicher Weg</h2></div><div id="jobs"></div></section>
-<section class="section" id="certificates"><div><div class="eyebrow" data-i="s3">03 / Zertifikate</div><h2 data-i="certTitle">Nachweise und Zertifikate</h2></div><div class="badges" id="badges"></div></section>
-<section class="section contact" id="contact"><div><div class="eyebrow" data-i="s4">04 / Kontakt</div><p class="copy" data-i="contactText">Für berufliche Anfragen erreichen Sie mich direkt per E-Mail oder Telefon.</p></div><div><h2 data-i="contactTitle">Lassen Sie uns verbinden.</h2><p class="copy"><a href="mailto:muayadalzughayer@gmail.com">muayadalzughayer@gmail.com</a><br><a href="tel:01704685489">01704685489</a><br><span data-i="place">Hannover / Wolfsburg, Niedersachsen, Deutschland</span></p><p><a href="https://www.linkedin.com/in/muayad-alzughayer-0070a2178" target="_blank">LinkedIn ↗</a>　<a href="https://www.xing.com/profile/Muayad_Alzughayer/web_profiles?nwt_nav=profile_icon" target="_blank">XING ↗</a>　<a href="https://www.credly.com/users/alzughayer/badges/credly" target="_blank">Credly ↗</a></p></div></section></main><footer><span>Muayad Alzughayer · Network Security Engineer / WAN</span><span>© 2026</span></footer>
+
+<header class="top">
+
+    <a class="brand" href="#top">
+        <span class="mark"></span>
+        <span>Muayad Alzughayer</span>
+    </a>
+
+    <div class="langs" aria-label="Language">
+        <button data-lang="de" class="active">DE</button>
+        <button data-lang="en">EN</button>
+        <button data-lang="ar">AR</button>
+    </div>
+
+</header>
+
+<main id="top">
+
+<!-- =========================
+     HERO
+========================= -->
+
+<section class="hero">
+
+    <div>
+
+        <div class="eyebrow" data-i="eyebrow">
+            MUAYAD ALZUGHAYER / 2026
+        </div>
+
+        <h1 data-i="hero">
+            Netzwerke, die sicher <em>verbinden.</em>
+        </h1>
+
+        <p class="intro" data-i="intro">
+            Network Security Engineer mit Erfahrung in WAN,
+            Datennetzbetrieb und Security-Umgebungen.
+            Ansässig in Hannover und tätig in Niedersachsen.
+        </p>
+
+        <div class="actions">
+
+            <a class="btn primary" href="#experience" data-i="cta">
+                Beruflichen Weg ansehen
+            </a>
+
+            <a class="btn" href="mailto:muayadalzughayer@gmail.com" data-i="contactBtn">
+                Kontakt aufnehmen
+            </a>
+
+        </div>
+
+    </div>
+
+    <div class="profile-card">
+
+        <img
+            src="./muayad-profile.jpg"
+            alt="Muayad Alzughayer"
+            loading="eager"
+        >
+
+        <div>
+
+            <div class="eyebrow">
+                PROFILE / 001
+            </div>
+
+            <h2 data-i="role">
+                Network Security Engineer / WAN
+            </h2>
+
+            <p data-i="place">
+                Hannover / Wolfsburg, Niedersachsen, Deutschland
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     ABOUT
+========================= -->
+
+<section class="section" id="about">
+
+    <div>
+
+        <div class="eyebrow" data-i="s1">
+            01 / Profil
+        </div>
+
+        <div style="font:80px 'IBM Plex Mono';opacity:.1">
+            01
+        </div>
+
+    </div>
+
+    <div>
+
+        <h2 data-i="aboutTitle">
+            Technische Präzision. Klare Verantwortung.
+        </h2>
+
+        <p class="copy" data-i="about">
+            Ich arbeite an der Schnittstelle von Netzwerkbetrieb und IT-Sicherheit.
+            Mein Schwerpunkt liegt auf stabilen WAN-Strukturen,
+            sicherem Datennetzbetrieb und der Administration von Security-Plattformen.
+        </p>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     CORE TECHNOLOGIES
+========================= -->
+
+<section class="section alt" id="technologies">
+
+    <div>
+
+        <div class="eyebrow" data-i="sTech">
+            02 / Core Technologies
+        </div>
+
+        <h2 data-i="techTitle">
+            Technologien & Plattformen
+        </h2>
+
+    </div>
+
+    <div>
+
+        <div class="technology-list">
+
+            <article class="tech-item">
+
+                <div class="tech-name">
+                    Cisco
+                </div>
+
+                <div class="tech-skill" data-tech="cisco">
+                    Enterprise Networking
+                </div>
+
+            </article>
+
+
+            <article class="tech-item">
+
+                <div class="tech-name">
+                    F5 BIG-IP
+                </div>
+
+                <div class="tech-skill" data-tech="f5">
+                    LTM & APM
+                </div>
+
+            </article>
+
+
+            <article class="tech-item">
+
+                <div class="tech-name">
+                    Palo Alto
+                </div>
+
+                <div class="tech-skill" data-tech="paloalto">
+                    Firewall
+                </div>
+
+            </article>
+
+
+            <article class="tech-item">
+
+                <div class="tech-name">
+                    Zscaler
+                </div>
+
+                <div class="tech-skill" data-tech="zscaler">
+                    ZIA & ZPA
+                </div>
+
+            </article>
+
+
+            <article class="tech-item">
+
+                <div class="tech-name">
+                    Fortinet
+                </div>
+
+                <div class="tech-skill" data-tech="fortinet">
+                    FortiGate Administration
+                </div>
+
+            </article>
+
+
+            <article class="tech-item">
+
+                <div class="tech-name">
+                    Check Point
+                </div>
+
+                <div class="tech-skill" data-tech="checkpoint">
+                    CCSA
+                </div>
+
+            </article>
+
+
+            <article class="tech-item">
+
+                <div class="tech-name">
+                    Tufin
+                </div>
+
+                <div class="tech-skill" data-tech="tufin">
+                    SecurTrack & SecureChange
+                </div>
+
+            </article>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     EXPERIENCE
+========================= -->
+
+<section class="section" id="experience">
+
+    <div>
+
+        <div class="eyebrow" data-i="s2">
+            03 / Berufserfahrung
+        </div>
+
+        <h2 data-i="expTitle">
+            Beruflicher Weg
+        </h2>
+
+    </div>
+
+    <div id="jobs"></div>
+
+</section>
+
+
+<!-- =========================
+     CERTIFICATES
+========================= -->
+
+<section class="section" id="certificates">
+
+    <div>
+
+        <div class="eyebrow" data-i="s3">
+            04 / Zertifikate
+        </div>
+
+        <h2 data-i="certTitle">
+            Nachweise und Zertifikate
+        </h2>
+
+    </div>
+
+    <div class="badges" id="badges"></div>
+
+</section>
+
+
+<!-- =========================
+     CONTACT
+========================= -->
+
+<section class="section contact" id="contact">
+
+    <div>
+
+        <div class="eyebrow" data-i="s4">
+            05 / Kontakt
+        </div>
+
+        <p class="copy" data-i="contactText">
+            Für berufliche Anfragen erreichen Sie mich direkt per E-Mail oder Telefon.
+        </p>
+
+    </div>
+
+    <div>
+
+        <h2 data-i="contactTitle">
+            Lassen Sie uns verbinden.
+        </h2>
+
+        <p class="copy">
+
+            <a href="mailto:muayadalzughayer@gmail.com">
+                muayadalzughayer@gmail.com
+            </a>
+
+            <br>
+
+            <a href="tel:01704685489">
+                01704685489
+            </a>
+
+            <br>
+
+            <span data-i="place">
+                Hannover / Wolfsburg, Niedersachsen, Deutschland
+            </span>
+
+        </p>
+
+        <p>
+
+            <a
+                href="https://www.linkedin.com/in/muayad-alzughayer-0070a2178"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                LinkedIn ↗
+            </a>
+
+            　
+
+            <a
+                href="https://www.xing.com/profile/Muayad_Alzughayer/web_profiles?nwt_nav=profile_icon"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                XING ↗
+            </a>
+
+            　
+
+            <a
+                href="https://www.credly.com/users/alzughayer/badges/credly"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                Credly ↗
+            </a>
+
+        </p>
+
+    </div>
+
+</section>
+
+</main>
+
+
+<footer>
+
+    <span>
+        Muayad Alzughayer · Network Security Engineer / WAN
+    </span>
+
+    <span>
+        © 2026
+    </span>
+
+</footer>
+
+
 <script>
-const jobs=[['03/2023 —','Network Security Engineer / WAN','Computacenter Germany AG & Co. oHG i.A. Volkswagen AG','Wolfsburg · Hybrid','Betrieb von Datennetz und WAN im Security-Team des Volkswagen-AG-Netzes; Administration von Check Point und F5 BIG-IP.'],['10/2022 —','Netzwerkingenieur','Volkswagen AG','Hannover · Vollzeit','Netzwerkbetrieb und technische Zusammenarbeit im Unternehmensumfeld.'],['08/2022 —','Netzwerkingenieur','Computacenter','Hannover · Vollzeit','Arbeit mit Check Point sowie LAN-WAN-Umgebungen.'],['11/2021 — 07/2022','System Engineer','Controlware GmbH','Hannover · Vollzeit','Migration, VPLS und weitere Infrastrukturthemen.'],['06/2021 — 11/2021','System Engineer','CS IT Solutions','Hannover · Praktikum','Praktische Erfahrung im System- und Netzwerkumfeld.']];
-const badges=[['Cisco Certified Specialist - Security Core','Cisco','Expires 16 Sep 2028','https://images.credly.com/images/5518dfa4-6d3a-400d-b2f7-672de948feed/blob'],['Fortinet FortiGate 7.0 Administrator','Fortinet','Issued 26 Sep 2022','https://images.credly.com/images/36054dc5-13a6-47df-9cd1-5fac074c0bb4/image.png'],['Cisco Certified Network Professional Enterprise (CCNP Enterprise)','Cisco','Expires 16 Sep 2028','https://images.credly.com/images/07f70c56-f067-458e-bbe5-736f055f0cce/CCNP_Enterprise_large.png'],['Cisco Certified Specialist - Enterprise Advanced Infrastructure','Cisco','Expires 16 Sep 2028','https://images.credly.com/images/79bdda6a-bac2-4549-805c-2c3b3c2d2c44/blob'],['Cisco Certified Specialist - Enterprise Core','Cisco','Expires 16 Sep 2028','https://images.credly.com/images/e544ac8f-cd4e-4262-9de1-1174680b3bb4/blob'],['CCNA','Cisco','Expires 16 Sep 2028','https://images.credly.com/images/683783d8-eaac-4c37-a14d-11bd8a36321d/ccna_600.png']];
-const tr={de:{eyebrow:'MUAYAD ALZUGHAYER / 2026',hero:'Netzwerke, die sicher <em>verbinden.</em>',intro:'Network Security Engineer mit Erfahrung in WAN, Datennetzbetrieb und Security-Umgebungen. Ansässig in Hannover und tätig in Niedersachsen.',cta:'Beruflichen Weg ansehen',contactBtn:'Kontakt aufnehmen',role:'Network Security Engineer / WAN',place:'Hannover / Wolfsburg, Niedersachsen, Deutschland',aboutTitle:'Technische Präzision. Klare Verantwortung.',about:'Ich arbeite an der Schnittstelle von Netzwerkbetrieb und IT-Sicherheit. Mein Schwerpunkt liegt auf stabilen WAN-Strukturen, sicherem Datennetzbetrieb und der Administration von Security-Plattformen.',s1:'01 / Profil',s2:'02 / Berufserfahrung',s3:'03 / Zertifikate',s4:'04 / Kontakt',expTitle:'Beruflicher Weg',certTitle:'Nachweise und Zertifikate',contactTitle:'Lassen Sie uns verbinden.',contactText:'Für berufliche Anfragen erreichen Sie mich direkt per E-Mail oder Telefon.'},en:{eyebrow:'MUAYAD ALZUGHAYER / 2026',hero:'Networks that connect <em>securely.</em>',intro:'Network Security Engineer experienced in WAN, data network operations and security environments. Based in Hannover and working across Lower Saxony.',cta:'View professional path',contactBtn:'Get in touch',role:'Network Security Engineer / WAN',place:'Hannover / Wolfsburg, Lower Saxony, Germany',aboutTitle:'Technical precision. Clear ownership.',about:'I work at the intersection of network operations and IT security, focusing on resilient WAN structures, secure data network operations and security platform administration.',s1:'01 / Profile',s2:'02 / Experience',s3:'03 / Certificates',s4:'04 / Contact',expTitle:'Professional path',certTitle:'Credentials and certifications',contactTitle:'Let’s connect.',contactText:'For professional enquiries, reach me directly by email or phone.'},ar:{eyebrow:'مؤيد الزغير / 2026',hero:'شبكات تربط <em>بأمان.</em>',intro:'مهندس أمن شبكات لديه خبرة في شبكات WAN وتشغيل شبكات البيانات وبيئات الأمن السيبراني. يقيم ويعمل في هانوفر بولاية سكسونيا السفلى.',cta:'استعرض المسار المهني',contactBtn:'تواصل معي',role:'مهندس أمن شبكات / WAN',place:'هانوفر / فولفسبورغ، سكسونيا السفلى، ألمانيا',aboutTitle:'دقة تقنية. مسؤولية واضحة.',about:'أعمل عند تقاطع تشغيل الشبكات وأمن تقنية المعلومات، مع تركيز على بنى WAN مستقرة، وتشغيل شبكات بيانات آمنة، وإدارة منصات الحماية.',s1:'01 / الملف',s2:'02 / الخبرة',s3:'03 / الشهادات',s4:'04 / التواصل',expTitle:'المسار المهني',certTitle:'الاعتمادات والشهادات',contactTitle:'لنتواصل.',contactText:'للاستفسارات المهنية يمكن التواصل معي مباشرة عبر البريد أو الهاتف.'}};
-function renderJobs(){jobsEl.innerHTML=jobs.map(j=>`<article class="job"><div class="period">${j[0]}</div><div><h3>${j[1]}</h3><p><b>${j[2]}</b><br>${j[3]}</p><p>${j[4]}</p></div></article>`).join('')};function renderBadges(){badgesEl.innerHTML=badges.map(b=>`<a class="badge" href="https://www.credly.com/users/alzughayer/badges/credly" target="_blank"><img src="${b[3]}" alt="${b[0]}"><h3>${b[0]}</h3><small>${b[1]} · ${b[2]}</small></a>`).join('')};const jobsEl=document.querySelector('#jobs'),badgesEl=document.querySelector('#badges');renderJobs();renderBadges();document.querySelectorAll('[data-lang]').forEach(btn=>btn.onclick=()=>{const l=btn.dataset.lang,d=tr[l];document.documentElement.lang=l;document.documentElement.dir=l==='ar'?'rtl':'ltr';document.querySelectorAll('[data-i]').forEach(e=>{if(d[e.dataset.i])e.innerHTML=d[e.dataset.i]});document.querySelectorAll('[data-lang]').forEach(x=>x.classList.toggle('active',x===btn))});
-</script></body></html>
+
+/* =========================
+   EXPERIENCE DATA
+========================= */
+
+const jobs = [
+
+    [
+        '03/2023 —',
+        'Network Security Engineer / WAN',
+        'Computacenter Germany AG & Co. oHG i.A. Volkswagen AG',
+        'Wolfsburg · Hybrid',
+        'Betrieb von Datennetz und WAN im Security-Team des Volkswagen-AG-Netzes; Administration von Check Point und F5 BIG-IP.'
+    ],
+
+    [
+        '10/2022 —',
+        'Netzwerkingenieur',
+        'Volkswagen AG',
+        'Hannover · Vollzeit',
+        'Netzwerkbetrieb und technische Zusammenarbeit im Unternehmensumfeld.'
+    ],
+
+    [
+        '08/2022 —',
+        'Netzwerkingenieur',
+        'Computacenter',
+        'Hannover · Vollzeit',
+        'Arbeit mit Check Point sowie LAN-WAN-Umgebungen.'
+    ],
+
+    [
+        '11/2021 — 07/2022',
+        'System Engineer',
+        'Controlware GmbH',
+        'Hannover · Vollzeit',
+        'Migration, VPLS und weitere Infrastrukturthemen.'
+    ],
+
+    [
+        '06/2021 — 11/2021',
+        'System Engineer',
+        'CS IT Solutions',
+        'Hannover · Praktikum',
+        'Praktische Erfahrung im System- und Netzwerkumfeld.'
+    ]
+
+];
+
+
+/* =========================
+   CERTIFICATES DATA
+========================= */
+
+const badges = [
+
+    [
+        'Cisco Certified Specialist - Security Core',
+        'Cisco',
+        'Expires 16 Sep 2028',
+        'https://images.credly.com/images/5518dfa4-6d3a-400d-b2f7-672de948feed/blob'
+    ],
+
+    [
+        'Fortinet FortiGate 7.0 Administrator',
+        'Fortinet',
+        'Issued 26 Sep 2022',
+        'https://images.credly.com/images/36054dc5-13a6-47df-9cd1-5fac074c0bb4/image.png'
+    ],
+
+    [
+        'Cisco Certified Network Professional Enterprise (CCNP Enterprise)',
+        'Cisco',
+        'Expires 16 Sep 2028',
+        'https://images.credly.com/images/07f70c56-f067-458e-bbe5-736f055f0cce/CCNP_Enterprise_large.png'
+    ],
+
+    [
+        'Cisco Certified Specialist - Enterprise Advanced Infrastructure',
+        'Cisco',
+        'Expires 16 Sep 2028',
+        'https://images.credly.com/images/79bdda6a-bac2-4549-805c-2c3b3c2d2c44/blob'
+    ],
+
+    [
+        'Cisco Certified Specialist - Enterprise Core',
+        'Cisco',
+        'Expires 16 Sep 2028',
+        'https://images.credly.com/images/e544ac8f-cd4e-4262-9de1-1174680b3bb4/blob'
+    ],
+
+    [
+        'CCNA',
+        'Cisco',
+        'Expires 16 Sep 2028',
+        'https://images.credly.com/images/683783d8-eaac-4c37-a14d-11bd8a36321d/ccna_600.png'
+    ]
+
+];
+
+
+/* =========================
+   TRANSLATIONS
+========================= */
+
+const tr = {
+
+    de: {
+
+        eyebrow:'MUAYAD ALZUGHAYER / 2026',
+
+        hero:'Netzwerke, die sicher <em>verbinden.</em>',
+
+        intro:'Network Security Engineer mit Erfahrung in WAN, Datennetzbetrieb und Security-Umgebungen. Ansässig in Hannover und tätig in Niedersachsen.',
+
+        cta:'Beruflichen Weg ansehen',
+
+        contactBtn:'Kontakt aufnehmen',
+
+        role:'Network Security Engineer / WAN',
+
+        place:'Hannover / Wolfsburg, Niedersachsen, Deutschland',
+
+        aboutTitle:'Technische Präzision. Klare Verantwortung.',
+
+        about:'Ich arbeite an der Schnittstelle von Netzwerkbetrieb und IT-Sicherheit. Mein Schwerpunkt liegt auf stabilen WAN-Strukturen, sicherem Datennetzbetrieb und der Administration von Security-Plattformen.',
+
+        s1:'01 / Profil',
+
+        sTech:'02 / Core Technologies',
+
+        s2:'03 / Berufserfahrung',
+
+        s3:'04 / Zertifikate',
+
+        s4:'05 / Kontakt',
+
+        techTitle:'Technologien & Plattformen',
+
+        expTitle:'Beruflicher Weg',
+
+        certTitle:'Nachweise und Zertifikate',
+
+        contactTitle:'Lassen Sie uns verbinden.',
+
+        contactText:'Für berufliche Anfragen erreichen Sie mich direkt per E-Mail oder Telefon.',
+
+        techs:{
+
+            cisco:'Enterprise Networking',
+
+            f5:'LTM & APM',
+
+            paloalto:'Firewall',
+
+            zscaler:'ZIA & ZPA',
+
+            fortinet:'FortiGate Administration',
+
+            checkpoint:'CCSA',
+
+            tufin:'SecurTrack & SecureChange'
+
+        }
+
+    },
+
+
+    en: {
+
+        eyebrow:'MUAYAD ALZUGHAYER / 2026',
+
+        hero:'Networks that connect <em>securely.</em>',
+
+        intro:'Network Security Engineer experienced in WAN, data network operations and security environments. Based in Hannover and working across Lower Saxony.',
+
+        cta:'View professional path',
+
+        contactBtn:'Get in touch',
+
+        role:'Network Security Engineer / WAN',
+
+        place:'Hannover / Wolfsburg, Lower Saxony, Germany',
+
+        aboutTitle:'Technical precision. Clear ownership.',
+
+        about:'I work at the intersection of network operations and IT security, focusing on resilient WAN structures, secure data network operations and security platform administration.',
+
+        s1:'01 / Profile',
+
+        sTech:'02 / Core Technologies',
+
+        s2:'03 / Experience',
+
+        s3:'04 / Certificates',
+
+        s4:'05 / Contact',
+
+        techTitle:'Technologies & Platforms',
+
+        expTitle:'Professional path',
+
+        certTitle:'Credentials and certifications',
+
+        contactTitle:'Let’s connect.',
+
+        contactText:'For professional enquiries, reach me directly by email or phone.',
+
+        techs:{
+
+            cisco:'Enterprise Networking',
+
+            f5:'LTM & APM',
+
+            paloalto:'Firewall',
+
+            zscaler:'ZIA & ZPA',
+
+            fortinet:'FortiGate Administration',
+
+            checkpoint:'CCSA',
+
+            tufin:'SecurTrack & SecureChange'
+
+        }
+
+    },
+
+
+    ar: {
+
+        eyebrow:'مؤيد الزغير / 2026',
+
+        hero:'شبكات تربط <em>بأمان.</em>',
+
+        intro:'مهندس أمن شبكات لديه خبرة في شبكات WAN وتشغيل شبكات البيانات وبيئات الأمن السيبراني. يقيم ويعمل في هانوفر بولاية سكسونيا السفلى.',
+
+        cta:'استعرض المسار المهني',
+
+        contactBtn:'تواصل معي',
+
+        role:'مهندس أمن شبكات / WAN',
+
+        place:'هانوفر / فولفسبورغ، سكسونيا السفلى، ألمانيا',
+
+        aboutTitle:'دقة تقنية. مسؤولية واضحة.',
+
+        about:'أعمل عند تقاطع تشغيل الشبكات وأمن تقنية المعلومات، مع تركيز على بنى WAN مستقرة، وتشغيل شبكات بيانات آمنة، وإدارة منصات الحماية.',
+
+        s1:'01 / الملف',
+
+        sTech:'02 / التقنيات الأساسية',
+
+        s2:'03 / الخبرة',
+
+        s3:'04 / الشهادات',
+
+        s4:'05 / التواصل',
+
+        techTitle:'التقنيات والمنصات',
+
+        expTitle:'المسار المهني',
+
+        certTitle:'الاعتمادات والشهادات',
+
+        contactTitle:'لنتواصل.',
+
+        contactText:'للاستفسارات المهنية يمكن التواصل معي مباشرة عبر البريد أو الهاتف.',
+
+        techs:{
+
+            cisco:'شبكات المؤسسات',
+
+            f5:'إدارة حركة المرور وإدارة الوصول',
+
+            paloalto:'جدران الحماية',
+
+            zscaler:'ZIA و ZPA',
+
+            fortinet:'إدارة FortiGate',
+
+            checkpoint:'CCSA',
+
+            tufin:'SecurTrack و SecureChange'
+
+        }
+
+    }
+
+};
+
+
+/* =========================
+   RENDER EXPERIENCE
+========================= */
+
+const jobsEl = document.querySelector('#jobs');
+
+function renderJobs(){
+
+    jobsEl.innerHTML = jobs.map(j => `
+
+        <article class="job">
+
+            <div class="period">
+                ${j[0]}
+            </div>
+
+            <div>
+
+                <h3>
+                    ${j[1]}
+                </h3>
+
+                <p>
+                    <b>${j[2]}</b>
+                    <br>
+                    ${j[3]}
+                </p>
+
+                <p>
+                    ${j[4]}
+                </p>
+
+            </div>
+
+        </article>
+
+    `).join('');
+
+}
+
+
+/* =========================
+   RENDER CERTIFICATES
+========================= */
+
+const badgesEl = document.querySelector('#badges');
+
+function renderBadges(){
+
+    badgesEl.innerHTML = badges.map(b => `
+
+        <a
+            class="badge"
+            href="https://www.credly.com/users/alzughayer/badges/credly"
+            target="_blank"
+            rel="noopener noreferrer"
+        >
+
+            <img
+                src="${b[3]}"
+                alt="${b[0]}"
+                loading="lazy"
+            >
+
+            <h3>
+                ${b[0]}
+            </h3>
+
+            <small>
+                ${b[1]} · ${b[2]}
+            </small>
+
+        </a>
+
+    `).join('');
+
+}
+
+
+/* =========================
+   LANGUAGE SYSTEM
+========================= */
+
+function setLanguage(language){
+
+    const d = tr[language];
+
+    document.documentElement.lang = language;
+
+    document.documentElement.dir =
+        language === 'ar'
+        ? 'rtl'
+        : 'ltr';
+
+
+    document.querySelectorAll('[data-i]').forEach(element => {
+
+        const key = element.dataset.i;
+
+        if(d[key]){
+            element.innerHTML = d[key];
+        }
+
+    });
+
+
+    document.querySelectorAll('[data-tech]').forEach(element => {
+
+        const key = element.dataset.tech;
+
+        if(d.techs && d.techs[key]){
+            element.textContent = d.techs[key];
+        }
+
+    });
+
+
+    document.querySelectorAll('[data-lang]').forEach(button => {
+
+        button.classList.toggle(
+            'active',
+            button.dataset.lang === language
+        );
+
+    });
+
+}
+
+
+/* =========================
+   INIT
+========================= */
+
+renderJobs();
+
+renderBadges();
+
+document.querySelectorAll('[data-lang]').forEach(button => {
+
+    button.addEventListener('click', () => {
+
+        setLanguage(button.dataset.lang);
+
+    });
+
+});
+
+</script>
+
+</body>
+</html>
